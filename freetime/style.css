@@ -5,12 +5,17 @@
     padding: 0;
     
 }
+a{
+    margin-top: 10px;
+    margin-right: 9px;
+    margin-left: 9px;
+    
+}
 
 body{
     font-family: Lucida Sans Unicode;
     background-color:blue;
     background-position: center center;
-    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -76,17 +81,17 @@ h1
 
 
 a:link{
-    color: beige;
+    color: gold;
     
 }
 
 a:visited{
-    color: blue;
+    color: gold;
     
 }
 
 a:hover{
-    color: gold;
+    color: turquoise;
     
 }
 
