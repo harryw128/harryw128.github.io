@@ -60,8 +60,19 @@ header
 }
 
 
-
-
+img {
+    
+    padding: 5px;
+    width: 150px;
+    
+    
+  }
+  .right {
+    position: absolute;
+    right: 200px;
+    width: 300px;
+    padding: 10px;
+  }
 h1
 {
     
