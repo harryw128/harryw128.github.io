@@ -109,6 +109,18 @@ a:hover{
     
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse:separate;
+    width: 100%;
+  }
+  
+  th {
+   
+    text-align: left;
+    padding: 20px;
+  }
+
 @media only screen and (max-width: 750px) {
     .links{
         font-size: 14px;
