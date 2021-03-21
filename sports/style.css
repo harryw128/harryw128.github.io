@@ -95,6 +95,17 @@ a:hover{
     color: gold;
     
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse:separate;
+    width: 100%;
+  }
+  
+  th {
+   
+    text-align: left;
+    padding: 20px;
+  }
 
 @media only screen and (max-width: 750px) {
     .links{
