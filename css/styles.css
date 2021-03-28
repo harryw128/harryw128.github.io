@@ -92,7 +92,29 @@ h1
 
 }
 
+p1
+{
+    
+    color:gold;
+    text-align: center;
+    margin-top: 2vw;
 
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    margin-left: 1vw;
+    width: 700px;
+    display: table;
+
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
 
 a:link{
     color: black;
