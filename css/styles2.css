@@ -14,9 +14,8 @@ a{
 
 body{
     font-family: Lucida Sans Unicode;
-    background-color:gold;
+    background-color:blue;
     background-position: center center;
-    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,11 +29,7 @@ body{
 
 header
 {
-    
-    background-size: cover;
-    
-    
-    
+background-size: cover;   
 }
 
 .links {
@@ -92,7 +87,7 @@ a:visited{
 }
 
 a:hover{
-    color: blue;
+    color: gold;
     
 }
 
