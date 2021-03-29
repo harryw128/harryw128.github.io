@@ -12,12 +12,10 @@ a{
     
 }
 
-
 body{
     font-family: Lucida Sans Unicode;
     background-color:gold;
     background-position: center center;
-    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -30,8 +28,8 @@ body{
 
 
 header
-{   
-    background-size: cover;   
+{
+background-size: cover;   
 }
 
 .links {
@@ -56,20 +54,8 @@ header
 }
 
 
-img {
-    
-    padding: 5px;
-    width: 150px;
-    
-    
-    
-  }
-  .right {
-    position: absolute;
-    right: 200px;
-    width: 300px;
-    padding: 10px;
-  }
+
+
 h1
 {
     
@@ -81,10 +67,40 @@ h1
     padding-top: 1px;
     padding-bottom: 1px;
     margin-left: 24vw;
-    width: 650px;
+    width: 575px;
     display: table;
 
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 500px;
+    
+}
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  .centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse:separate;
+    width: 100%;
+  }
+  
+  th {
+   
+    text-align: center;
+    padding: 20px;
+    
+  }
 
 p1
 {
@@ -105,10 +121,12 @@ p1
 
 .center {
     margin: auto;
-    width: 50%;
- 
     padding: 10px;
+    width: 600px;
+    
   }
+
+  
 
 a:link{
     color: black;
@@ -124,38 +142,13 @@ a:hover{
     color: blue;
     
 }
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse:separate;
-    width: 75%;
-  }
-  
-  th {
-   
-    text-align: left;
-    padding: 20px;
-    
-  }
-
-  .center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-  }
-  .container {
-    position: relative;
-    text-align: center;
+mark {
+    background-color: transparent;
     color: white;
-  }
-  
-  /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
+
   }
 
+  
 @media only screen and (max-width: 750px) {
     .links{
         font-size: 14px;
@@ -178,13 +171,30 @@ table {
         width: 575px;
     }
 
-      
-      th {
-       
+    .container {
+        font-size: 10px;
+        position: left;
         text-align: left;
-        padding: 5px;
+        width: 200px;
+        color: white;
+        
+    }   
+    .center {
+        margin: auto;
+        padding: 10px;
+        width: 200px;
         
       }
-   
+      .centered {
+        position: absolute;
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+      }
+      mark {
+        background-color: black;
+        color: white;
+    
+      }
+      
 }
-
