@@ -76,7 +76,35 @@ h1
 
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
 
+  table {
+    font-family: arial, sans-serif;
+    border-collapse:separate;
+    width: 75%;
+  }
+  
+  th {
+   
+    text-align: left;
+    padding: 20px;
+    
+
+  }
+
+
+  
 p1
 {
     
