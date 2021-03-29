@@ -138,6 +138,19 @@ table {
     
   }
 
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
 @media only screen and (max-width: 750px) {
     .links{
         font-size: 14px;
@@ -160,6 +173,13 @@ table {
         width: 575px;
     }
 
+      
+      th {
+       
+        text-align: left;
+        padding: 5px;
+        
+      }
    
 }
 
