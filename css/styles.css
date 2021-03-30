@@ -12,9 +12,18 @@ a{
     
 }
 
+.pageblue{
+  background-color: blue;
+}
+.pagegold{
+  background-color: gold;
+}
+.pageturquoise{
+  background-color: turquoise;
+}
+
 body{
-    font-family: Lucida Sans Unicode;
-    background-color:gold;
+    font-family: Lucida Sans Unicode;;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -119,8 +128,15 @@ p1
     
   }
 
-  
+.portrait
+{
+  width: 300px;
+} 
 
+.pichome {
+height: 250px;
+  width: 300px;
+}
 a:link{
     color: black;
     
@@ -141,7 +157,11 @@ mark {
 
   }
 
-  
+  nav
+{
+   position: fixed;
+   top: 0;
+}
 @media only screen and (max-width: 750px) {
     .links{
         font-size: 14px;
