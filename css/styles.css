@@ -1,14 +1,15 @@
 *
 
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     
 }
 a{
     margin-top: 10px;
     margin-right: 9px;
     margin-left: 9px;
+    
     
 }
 
@@ -42,10 +43,10 @@ background-size: cover;
 .links {
     background-position: center;
    
-    margin-left: 10vw;
+    margin-left: 120px;
     display: table;
-    margin-top: 30px;
-    padding-top: 4px;
+    margin-top: 0px;
+    padding-top: 0px;
     padding-bottom: 4px;
     border-radius: 7.5px;
     font-size: 25px;
@@ -64,11 +65,11 @@ h1
     color:black;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 5vw;
+    margin-top: 60px;
     border-radius: 15px;
     padding-top: 1px;
     padding-bottom: 1px;
-    margin-left: 24vw;
+    margin-left: 420px;
     width: 575px;
     display: table;
 
@@ -77,9 +78,8 @@ h1
     position: relative;
     text-align: center;
     color: white;
-    width: 500px;
-    
 }
+ 
   .bottom-left {
     position: absolute;
     bottom: 8px;
@@ -103,7 +103,20 @@ h1
     padding: 20px;
     
   }
-
+  h3
+  {
+      
+      color:black;
+      text-align: center;
+      margin-top: 1px;
+      border-radius: 15px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      margin-left: 420px;
+      width: 575px;
+      display: table;
+  
+  }
 p1
 {
     
@@ -120,6 +133,23 @@ p1
     display: table;
 
 }
+p2 
+{
+    
+    color:black;
+    text-align: center;
+    margin-top: 2vw;
+
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 20px;
+    margin-left: 1vw;
+    width: 700px;
+    display: table;
+
+}
+
 
 .center {
     margin: auto;
@@ -131,6 +161,8 @@ p1
 .portrait
 {
   width: 300px;
+  margin: auto;
+  padding: 10px;
 } 
 
 .pichome {
@@ -148,7 +180,7 @@ mark {
 {
    position: fixed;
    top: 0;
-   background-color: gr;
+
 }
 
 a:link{
@@ -169,11 +201,10 @@ a:hover{
     .links{
         font-size: 14px;
         margin-left: 2px;
-        padding-top: 0.5px;
+        padding-top: 0px;
         padding-bottom: 0.5px;
         text-align: center; 
-        
-        margin-top: 5px;
+      
 
     }   
     
@@ -188,8 +219,7 @@ a:hover{
     }
 p1
 {
-    
-    color:gold;
+
     text-align: center;
     margin-top: 1vw;
 
@@ -199,13 +229,26 @@ p1
     font-size: 15px;
     margin-left: 1vw;
     width: 350px;
-    display: table;
+  
+}
+p2
+{
+
+    text-align: center;
+    margin-top: 1vw;
+
+    border-radius: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+    margin-left: 1vw;
+    width: 350px;
+
 
 }
 
     .container {
         font-size: 10px;
-        position: left;
         text-align: left;
         width: 200px;
         color: white;
