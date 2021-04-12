@@ -68,6 +68,7 @@ header .navhead{
 }
 
 /* Color Changing Header/nav bar */
+/* Color Changing from https://stackoverflow.com/questions/43371912/how-to-make-an-html-css-js-color-changing-background-like-kahoot-it-has/43372324 */
 @keyframes colorchange
 {
   0%   {background: gold}
