@@ -12,7 +12,7 @@ a{
     
     
 }
-
+/* For Different Page Color */
 .pageblue{
   background-color: blue;
 }
@@ -33,7 +33,7 @@ body{
     margin-top: 0px;   
 }
 
-
+/* Header Settings */
 
 header {
 
@@ -47,7 +47,6 @@ header {
 }
 
 
-
 header .navhead{
 	width: 100%;
 	height: 100%;
@@ -58,7 +57,6 @@ header .navhead{
 
 .links {
     background-position: center;
-    
     margin-left: 120px;
     display: table;
     margin-top: 0px;
@@ -69,6 +67,7 @@ header .navhead{
     animation: colorchange 10s infinite; 
 }
 
+/* Color Changing Header/nav bar */
 @keyframes colorchange
 {
   0%   {background: gold}
@@ -79,13 +78,43 @@ header .navhead{
 
 
   
-
-
 .body
 {
     font-family: monospace;
 }
 
+
+ /* Position for text on images*/
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ /* For table*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse:separate;
+  width: 100%;
+}
+
+th {
+ 
+  text-align: center;
+  padding: 20px;
+  
+}
 
 h1
 {
@@ -102,35 +131,7 @@ h1
     display: table;
 
 }
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
- 
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  .centered {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  table {
-    font-family: arial, sans-serif;
-    border-collapse:separate;
-    width: 100%;
-  }
-  
-  th {
-   
-    text-align: center;
-    padding: 20px;
-    
-  }
+
   h3
   {
       
@@ -153,6 +154,7 @@ h1
     
   }
 
+  /* For Portrait Image Home Page*/
 .portrait
 {
   width: 300px;
@@ -160,11 +162,13 @@ h1
   padding: 10px;
 } 
 
+/* For Pictures On Home Page*/
 .pichome {
 height: 250px;
   width: 300px;
 }
 
+/* For Image Text*/
 mark {
     background-color: transparent;
     color: white;
@@ -178,6 +182,7 @@ mark {
    top: 0;
 
 }
+/* For link colors (NAV) */
 
 a:link{
   color: black;
@@ -193,13 +198,20 @@ a:hover{
   color: black;
   
 }
+
+/* For Phones */
 @media only screen and (max-width: 750px) {
-    .links{
+  header .navhead{
+ 
+    padding: 2px;
+
+    }
+  .links{
         font-size: 14px;
         margin-left: 0px;
         padding-top: 0px;
         padding-bottom: 0.5px;
-        text-align: center; 
+        text-align: left;
         border-radius: 0px;
 
     }   
@@ -251,8 +263,14 @@ a:hover{
       
 }
 
+/* For Ipad/Tablets */
 @media only screen and (max-width: 800px) and (min-width:750px) {
- h1 {
+  header .navhead{
+ 
+    padding: 2px;
+
+    }
+  h1 {
      
       padding-top: 0px;
       padding-bottom: 0px;
@@ -275,7 +293,7 @@ a:hover{
   margin-left: 0px;
   padding-top: 0px;
   padding-bottom: 0.5px;
-  text-align: center; 
+  
   border-radius: 0px;
 
 }  
