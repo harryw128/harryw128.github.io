@@ -1,16 +1,14 @@
 *
 
 {
-    margin: 0px;
-    padding: 0px;
-    
+margin: 0px;
+padding: 0px;   
 }
+
 a{
-    margin-top: 10px;
+    margin-left: 9px;   
     margin-right: 9px;
-    margin-left: 9px;
-    
-    
+    margin-top: 10px;
 }
 /* For Different Page Color */
 .pageblue{
@@ -24,11 +22,11 @@ a{
 }
 
 body{
-    font-family: Lucida Sans Unicode;;
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    font-family: Lucida Sans Unicode;;
     height: 100vh;
     margin-top: 0px;   
 }
@@ -37,34 +35,34 @@ body{
 
 header {
 
+	border-radius: 0 0 85% 85% / 30%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
 	text-align: center;
 	width: 100%;
-	height: auto;
-	position: relative;
-	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
   
 }
 
 
 header .navhead{
-	width: 100%;
+	color: #FFF;
 	height: 100%;
 	padding: 50px;
-	color: #FFF;
+	width: 100%;
   animation: colorchange 20s infinite; 
   }
 
 .links {
-    background-position: center;
-    margin-left: 120px;
-    display: table;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-bottom: 4px;
-    border-radius: 7.5px;
-    font-size: 25px;
     animation: colorchange 10s infinite; 
+    background-position: center;
+    border-radius: 7.5px;
+    display: table;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 0px;
+    padding-bottom: 4px;
+    padding-top: 0px;
 }
 
 /* Color Changing Header/nav bar */
